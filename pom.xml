@@ -16,7 +16,7 @@
         <jenkins.version>2.138.3</jenkins.version>
         <java.level>8</java.level>
         <workflow-cps.version>2.30</workflow-cps.version>
-        <configuration-as-code.version>1.12</configuration-as-code.version>
+        <configuration-as-code.version>1.47.1</configuration-as-code.version>
     </properties>
     <licenses>
         <license>
@@ -35,7 +35,7 @@
         <dependency>
             <groupId>org.jenkins-ci.plugins</groupId>
             <artifactId>cloudbees-folder</artifactId>
-            <version>6.1.0</version>
+            <version>6.848.ve3b_fd7839a_81</version>
             <optional>true</optional>
         </dependency>
         <dependency>
@@ -49,7 +49,7 @@
         <dependency>
             <groupId>org.jenkins-ci.plugins</groupId>
             <artifactId>credentials</artifactId>
-            <version>2.1.16</version>
+            <version>1371.1373.v4eb_fa_b_7161e9</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -68,14 +68,14 @@
         <dependency>
             <groupId>org.jenkins-ci.plugins.workflow</groupId>
             <artifactId>workflow-multibranch</artifactId>
-            <version>2.10</version>
+            <version>707.v71c3f0a_6ccdb_</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <!-- requireUpperBoundDeps -->
             <groupId>org.jenkins-ci.plugins</groupId>
             <artifactId>structs</artifactId>
-            <version>1.13</version>
+            <version>338.v848422169819</version>
             <scope>test</scope>
         </dependency>
         <dependency>
